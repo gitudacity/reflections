@@ -1,0 +1,13 @@
+git reset --hard : takes out files that were to be tracked
+set in the staging area and gets rid of them
+git status: checks on the current status of your repository
+and lets you know what files aren't being tracked, which ones
+are, and which commits are in the staging area.
+git init: creates a .git file for a directory and changes
+it to a local repository
+git add: places the commits you want to make to the repository
+in the staging area to be added
+git commit: moves commits ready to be committed from the staging
+area and commits them officially
+Below is a pdf of other git commands:
+https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf

@@ -1,3 +1,11 @@
+To clone a repository, run git clone followed by a space and the repository URL.
+To stop viewing git log output, press q (which stands for quit).
+As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs.
+To make copying and pasting in GitBash easier by turning on QuickEdit mode, follow the instructions
+https://www.udacity.com/wiki/ud775/git-bash-copy-paste
+Running git diff followed by two commit IDs will compare the two versions of the code in those commits.
+git log --stat : gives statistics on which files have changed
+in each commit
 git reset --hard : takes out files that were to be tracked
 set in the staging area and gets rid of them
 git status: checks on the current status of your repository
@@ -11,3 +19,8 @@ git commit: moves commits ready to be committed from the staging
 area and commits them officially
 Below is a pdf of other git commands:
 https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
+git diff ( with no argument): compares the working area to the staging area
+shows any changes that haven't been added to the staging area
+git diff --staged : compares the repository and the staging area
+Remember that the staging area is a copy of the most recent commits
+until there has been changes added from CWD to the staging area

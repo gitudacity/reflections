@@ -1,6 +1,6 @@
-To clone a repository, run git clone followed by a space and the repository URL.
-To stop viewing git log output, press q (which stands for quit).
-As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs.
+git clone (URL): To clone a repository, run git clone followed by a space and the repository URL.
+Press q: To stop viewing git log output, press q (which stands for quit).
+git log: As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs.
 To make copying and pasting in GitBash easier by turning on QuickEdit mode, follow the instructions
 https://www.udacity.com/wiki/ud775/git-bash-copy-paste
 Running git diff followed by two commit IDs will compare the two versions of the code in those commits.

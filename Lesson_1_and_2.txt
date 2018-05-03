@@ -15,7 +15,9 @@ git init: creates a .git file for a directory and changes
 it to a local repository
 git add: places the commits you want to make to the repository
 in the staging area to be added
-git commit: moves commits ready to be committed from the staging
+git commit: moves commits ready to be committed from the staging area. However, your text editor will open up
+and you will have to make a comment, save and then exit the editor
+git commit -m "Commit message": You do not have to use your text editor when you run this command
 area and commits them officially
 Below is a pdf of other git commands:
 https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
@@ -24,3 +26,8 @@ shows any changes that haven't been added to the staging area
 git diff --staged : compares the repository and the staging area
 Remember that the staging area is a copy of the most recent commits
 until there has been changes added from CWD to the staging area
+git checkout -b (new branch name): use this command when your in detached head to make the commit a new branch
+git show commit_id: This is how you can compare a commit to its parent
+git log -n1: shows last commit
+git branch: allows a user to get and create local branches in a repository
+git remote: allows a user to get and create remote branches in a repository

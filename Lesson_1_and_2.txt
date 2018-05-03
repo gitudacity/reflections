@@ -30,4 +30,9 @@ git checkout -b (new branch name): use this command when your in detached head t
 git show commit_id: This is how you can compare a commit to its parent
 git log -n1: shows last commit
 git branch: allows a user to get and create local branches in a repository
-git remote: allows a user to get and create remote branches in a repository
+git branch <branch name>: allows user to create a branch
+git remote: allows a user to get and create remote in a repository
+git remote <name of remote>: allows a user to create a remote in a repository
+git remote add <name of repository> URL location of remote repository
+git push <argument 1> <argument 2>: this command takes two arguments and allows a user to make changes to the remote
+the arguments are the remote one would like to make changes to and the local branch that the user would like to push

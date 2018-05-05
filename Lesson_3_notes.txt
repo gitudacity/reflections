@@ -1,1 +1,24 @@
 Learn how to collaborate with with others on Github
+git remote -v: shows the URLs to fetch and push a remote
+Add Collaborator on Github: Go to settings and add Collaborator
+What is forking? We are allowed to clone a remote to our computer and make
+it a local repository. We can then reclone it as a modified repository from
+our local computer ( does it need to be modified with new branches? I am sure,
+most likely not) to Github as a new remote. That new remote can then be cloned
+by someone else. This essentially loses the initial author along the process.
+However, Forking is a term that is introduced to allow for the cloning of a
+remote repository on Github to a new remote on your account. The forking process
+takes place with the simple click of a button called "Fork". This also links to
+the initial remote repository and gives credit to the initial author. You can then
+clone that remote as a local repository if you want.
+What is Conflicting Collaboration? If there is commits not yet pushed to the remote
+repository and a pull occurs (* Seriously, remember that a pull should only be done when there
+are no changes to commit to the remote from local)-- a pull is where a remote commits are being updated
+to the local since there have been changes done to the remote and the local has not been updated
+with such changes. This situation is considered a conflicting collaboration.
+To remediate, you should merge a local and remote version of the branch that has conflicting collaboration.
+This can only happen when there changes to both the remote and local, and you cant push or pull without deleting
+certain changes.
+What does bash <file> < Fork URL> do in command prompt? It clones the changes <file> that a contributor has made to your
+remote to your local repository. The ideal is to not have the need to pull changes from the remote to the local and lose
+the commits one has already made on the local repository

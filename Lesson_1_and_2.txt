@@ -36,5 +36,6 @@ git remote <name of remote>: allows a user to create a remote in a repository
 git remote add <name of repository> URL location of remote repository
 git push <argument 1> <argument 2>: this command takes two arguments and allows a user to make changes to the remote
 the arguments are the remote one would like to make changes to and the local branch that the user would like to push
-git pull <remote_name> <local_name>: This allows you to update the changes made on the remote to the local
+git pull <remote_name> <local_name>: This allows you to update the changes made on the remote to the local ( your allowed
+to pull when the local repository doesn't have any commits that the remote was missing)
 git push -u <remote> <local>
